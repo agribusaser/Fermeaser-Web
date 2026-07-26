@@ -1,65 +1,137 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferme Aser - Agriculture Moderne</title>
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Ferme Aser | Agriculture Moderne & Élevage de Cailles</title>
+
+    <meta name="description"
+        content="Ferme Aser est une entreprise agricole moderne spécialisée dans l'élevage de cailles, la production d'œufs de cailles et les cultures agricoles en République Démocratique du Congo.">
+
+    <meta name="keywords"
+        content="Ferme Aser, Agriculture, Cailles, Œufs de cailles, RDC, Fungurume, Produits agricoles">
+
+    <meta name="author" content="Ferme Aser">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
-<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+
+<body>
+
+<!--==========================
+        NAVBAR
+===========================-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-success shadow sticky-top">
 
     <div class="container">
 
-        <a class="navbar-brand fw-bold" href="#">
-            🌾 FERME ASER
+        <a class="navbar-brand fw-bold fs-3" href="index.html">
+
+            <i class="bi bi-tree-fill"></i>
+
+            FERME ASER
+
         </a>
 
         <button class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#menu">
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar">
 
             <span class="navbar-toggler-icon"></span>
 
         </button>
 
-        <div class="collapse navbar-collapse" id="menu">
+        <div class="collapse navbar-collapse"
+            id="navbar">
 
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
 
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">
+
+                    <a class="nav-link active"
+                        href="index.html">
+
                         Accueil
+
                     </a>
+
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="products.html">
+
+                    <a class="nav-link"
+                        href="products.html">
+
                         Produits
+
                     </a>
+
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">
+
+                    <a class="nav-link"
+                        href="gallery.html">
+
                         Galerie
+
                     </a>
+
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">
+
+                    <a class="nav-link"
+                        href="about.html">
+
                         À propos
+
                     </a>
+
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">
+
+                    <a class="nav-link"
+                        href="contact.html">
+
                         Contact
+
                     </a>
+
                 </li>
 
             </ul>
+
+            <a href="https://wa.me/243000000000"
+                class="btn btn-warning ms-lg-4">
+
+                <i class="bi bi-whatsapp"></i>
+
+                WhatsApp
+
+            </a>
 
         </div>
 
@@ -67,18 +139,11 @@
 
 </nav>
 
-    <header>
+<!--==========================
+          HERO
+===========================-->
 
-        <h1>🌾 FERME ASER</h1>
-
-        <nav>
-            <a href="index.html">Accueil</a>
-            <a href="products.html">Produits</a>
-            <a href="gallery.html">Galerie</a>
-            <a href="about.html">À propos</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <section class="hero">
+<header class="hero py-5">
 
     <div class="container">
 
@@ -86,40 +151,177 @@
 
             <div class="col-lg-6">
 
-                <h1 class="display-3 fw-bold">
+                <span class="badge bg-warning text-dark mb-3 p-2">
 
-                    🌾 Bienvenue chez Ferme Aser
+                    Agriculture • Élevage • Innovation
+
+                </span>
+
+                <h1 class="display-3 fw-bold mb-4">
+
+                    Produire aujourd'hui
+                    <span class="text-success">
+                        pour nourrir demain.
+                    </span>
 
                 </h1>
 
-                <p class="lead mt-4">
+                <p class="lead mb-4">
 
-                    Nous produisons des œufs de cailles,
-                    des cailles vivantes et des produits agricoles
-                    de qualité pour nourrir l'Afrique.
+                    Ferme Aser développe une agriculture moderne,
+                    un élevage de cailles performant et une
+                    production agricole durable afin de fournir
+                    des aliments de qualité en République
+                    Démocratique du Congo.
 
                 </p>
 
-                <a href="products.html"
-                   class="btn btn-success btn-lg mt-3">
+                <div class="d-flex flex-wrap gap-3">
 
-                    Commander maintenant
+                    <a href="products.html"
+                        class="btn btn-success btn-lg">
 
-                </a>
+                        Découvrir nos produits
 
-                <a href="about.html"
-                   class="btn btn-outline-success btn-lg mt-3 ms-2">
+                    </a>
 
-                    En savoir plus
+                    <a href="contact.html"
+                        class="btn btn-outline-success btn-lg">
 
-                </a>
+                        Nous contacter
+
+                    </a>
+
+                </div>
+
+                <div class="row mt-5">
+
+                    <div class="col-4">
+
+                        <h3 class="fw-bold text-success">
+
+                            18+
+
+                        </h3>
+
+                        <p>
+
+                            Hectares
+
+                        </p>
+
+                    </div>
+
+                    <div class="col-4">
+
+                        <h3 class="fw-bold text-success">
+
+                            100%
+
+                        </h3>
+
+                        <p>
+
+                            Produits frais
+
+                        </p>
+
+                    </div>
+
+                    <div class="col-4">
+
+                        <h3 class="fw-bold text-success">
+
+                            24/7
+
+                        </h3>
+
+                        <p>
+
+                            Assistance
+
+                        </p>
+
+                    </div>
+
+                </div>
 
             </div>
 
             <div class="col-lg-6 text-center">
 
                 <img src="images/hero.png"
-                     class="img-fluid">
+                    class="img-fluid"
+                    alt="Ferme Aser">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!--==========================
+      A PROPOS
+===========================-->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+
+                <img src="images/farm.jpg"
+                    class="img-fluid rounded-4 shadow"
+                    alt="Notre ferme">
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <span class="text-success fw-bold">
+
+                    QUI SOMMES-NOUS ?
+
+                </span>
+
+                <h2 class="fw-bold mt-3 mb-4">
+
+                    Une ferme tournée vers l'avenir
+
+                </h2>
+
+                <p>
+
+                    Ferme Aser est une entreprise agricole qui
+                    combine l'élevage de cailles,
+                    les cultures agricoles,
+                    la mécanisation
+                    et l'innovation afin de répondre
+                    aux besoins alimentaires
+                    de la République Démocratique du Congo.
+
+                </p>
+
+                <p>
+
+                    Notre vision est de construire une
+                    agriculture moderne,
+                    rentable,
+                    durable
+                    et accessible à tous.
+
+                </p>
+
+                <a href="about.html"
+                    class="btn btn-success mt-3">
+
+                    Lire notre histoire
+
+                </a>
 
             </div>
 
@@ -129,41 +331,831 @@
 
 </section>
 
-    </header>
+<!--==========================
+      NOS ACTIVITES
+===========================-->
+    <section class="py-5">
 
-    <section>
+    <div class="container">
 
-        <h2>Nourrir l'Afrique avec une agriculture moderne</h2>
+        <div class="text-center mb-5">
 
-        <p>
-            Ferme Aser produit des œufs de cailles,
-            des cailles vivantes et des produits agricoles de qualité.
-        </p>
+            <span class="text-success fw-bold">
+                NOS ACTIVITÉS
+            </span>
 
-        <button>Commander maintenant</button>
+            <h2 class="fw-bold mt-3">
+                Une agriculture diversifiée
+            </h2>
 
-    </section>
+            <p class="text-muted">
+                Ferme Aser développe plusieurs secteurs afin de répondre
+                aux besoins alimentaires et agricoles.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="card border-0 shadow h-100 text-center p-4">
+
+                    <i class="bi bi-egg-fried display-3 text-success mb-3"></i>
+
+                    <h4>Élevage de cailles</h4>
+
+                    <p>
+                        Production de cailles,
+                        œufs de consommation
+                        et œufs fécondés.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="card border-0 shadow h-100 text-center p-4">
+
+                    <i class="bi bi-tree display-3 text-success mb-3"></i>
+
+                    <h4>Agriculture</h4>
+
+                    <p>
+
+                        Production de maïs,
+                        soja,
+                        haricots,
+                        arachides
+                        et autres cultures.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="card border-0 shadow h-100 text-center p-4">
+
+                    <i class="bi bi-gear-wide-connected display-3 text-success mb-3"></i>
+
+                    <h4>Mécanisation</h4>
+
+                    <p>
+
+                        Utilisation de matériels modernes
+                        pour améliorer la productivité.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="card border-0 shadow h-100 text-center p-4">
+
+                    <i class="bi bi-shop display-3 text-success mb-3"></i>
+
+                    <h4>Transformation</h4>
+
+                    <p>
+
+                        Développement de produits agricoles
+                        à forte valeur ajoutée.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================
+        NOS PRODUITS
+===========================-->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="text-success fw-bold">
+
+                NOS PRODUITS
+
+            </span>
+
+            <h2 class="fw-bold mt-3">
+
+                Des produits frais et de qualité
+
+            </h2>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow h-100">
+
+                    <img src="images/eggs.jpg"
+                        class="card-img-top"
+                        alt="Œufs de cailles">
+
+                    <div class="card-body">
+
+                        <h4>
+
+                            Œufs de cailles
+
+                        </h4>
+
+                        <p>
+
+                            Œufs frais riches en protéines
+                            et adaptés à toute la famille.
+
+                        </p>
+
+                        <a href="products.html"
+                            class="btn btn-success">
+
+                            En savoir plus
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow h-100">
+
+                    <img src="images/quails.jpg"
+                        class="card-img-top"
+                        alt="Cailles">
+
+                    <div class="card-body">
+
+                        <h4>
+
+                            Cailles vivantes
+
+                        </h4>
+
+                        <p>
+
+                            Cailles destinées à
+                            l'élevage ou
+                            à la consommation.
+
+                        </p>
+
+                        <a href="products.html"
+                            class="btn btn-success">
+
+                            En savoir plus
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow h-100">
+
+                    <img src="images/maize.jpg"
+                        class="card-img-top"
+                        alt="Produits agricoles">
+
+                    <div class="card-body">
+
+                        <h4>
+
+                            Produits agricoles
+
+                        </h4>
+
+                        <p>
+
+                            Maïs,
+                            soja,
+                            haricots,
+                            arachides
+                            et autres productions.
+
+                        </p>
+
+                        <a href="products.html"
+                            class="btn btn-success">
+
+                            En savoir plus
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================
+    POURQUOI NOUS CHOISIR
+===========================-->
+
+<section class="py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="text-success fw-bold">
+
+                POURQUOI NOUS CHOISIR ?
+
+            </span>
+
+            <h2 class="fw-bold mt-3">
+
+                Nos engagements
+
+            </h2>
+
+        </div>
+
+        <div class="row text-center g-4">
+
+            <div class="col-md-3">
+
+                <i class="bi bi-award-fill display-4 text-success"></i>
+
+                <h5 class="mt-3">
+
+                    Qualité
+
+                </h5>
+
+                <p>
+
+                    Des produits soigneusement sélectionnés.
+
+                </p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <i class="bi bi-lightbulb-fill display-4 text-success"></i>
+
+                <h5 class="mt-3">
+
+                    Innovation
+
+                </h5>
+
+                <p>
+
+                    Des techniques agricoles modernes.
+
+                </p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <i class="bi bi-globe-africa display-4 text-success"></i>
+
+                <h5 class="mt-3">
+
+                    Agriculture durable
+
+                </h5>
+
+                <p>
+
+                    Respect de l'environnement
+                    et des ressources naturelles.
+
+                </p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <i class="bi bi-truck display-4 text-success"></i>
+
+                <h5 class="mt-3">
+
+                    Livraison
+
+                </h5>
+
+                <p>
+
+                    Un service fiable pour nos clients.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================
+        NOS CHIFFRES
+===========================-->
+
+<section class="py-5 bg-success text-white">
+
+    <div class="container">
+
+        <div class="row text-center">
+
+            <div class="col-md-3">
+
+                <h2 class="display-4 fw-bold">
+
+                    18+
+
+                </h2>
+
+                <p>
+
+                    Hectares
+
+                </p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h2 class="display-4 fw-bold">
+
+                    100%
+
+                </h2>
+
+                <p>
+
+                    Produits frais
+
+                </p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h2 class="display-4 fw-bold">
+
+                    365
+
+                </h2>
+
+                <p>
+
+                    Jours d'activité
+
+                </p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h2 class="display-4 fw-bold">
+
+                    RDC
+
+                </h2>
+
+                <p>
+
+                    Notre marché
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================
+        GALERIE
+===========================-->
+    <section class="py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="text-success fw-bold">
+                GALERIE
+            </span>
+
+            <h2 class="fw-bold mt-3">
+                Découvrez Ferme Aser
+            </h2>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <img src="images/gallery1.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Galerie 1">
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/gallery2.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Galerie 2">
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/gallery3.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Galerie 3">
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/gallery4.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Galerie 4">
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/gallery5.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Galerie 5">
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/gallery6.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Galerie 6">
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================
+      TEMOIGNAGES
+===========================-->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="text-success fw-bold">
+
+                TÉMOIGNAGES
+
+            </span>
+
+            <h2 class="fw-bold mt-3">
+
+                Ce que disent nos clients
+
+            </h2>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow h-100 p-4">
+
+                    <div class="text-warning mb-3">
+
+                        ★★★★★
+
+                    </div>
+
+                    <p>
+
+                        Produits de très bonne qualité.
+                        Les œufs de cailles sont toujours frais.
+
+                    </p>
+
+                    <h6 class="fw-bold">
+
+                        Client satisfait
+
+                    </h6>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow h-100 p-4">
+
+                    <div class="text-warning mb-3">
+
+                        ★★★★★
+
+                    </div>
+
+                    <p>
+
+                        Une ferme moderne avec un excellent
+                        service.
+
+                    </p>
+
+                    <h6 class="fw-bold">
+
+                        Restaurant partenaire
+
+                    </h6>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow h-100 p-4">
+
+                    <div class="text-warning mb-3">
+
+                        ★★★★★
+
+                    </div>
+
+                    <p>
+
+                        Je recommande vivement
+                        Ferme Aser.
+
+                    </p>
+
+                    <h6 class="fw-bold">
+
+                        Client fidèle
+
+                    </h6>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================
+      CONTACT RAPIDE
+===========================-->
+
+<section class="py-5">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6">
+
+                <h2 class="fw-bold text-success">
+
+                    Contactez-nous
+
+                </h2>
+
+                <p>
+
+                    Notre équipe est à votre disposition
+                    pour répondre à toutes vos questions.
+
+                </p>
+
+                <p>
+
+                    <i class="bi bi-telephone-fill text-success"></i>
+
+                    +243 XXX XXX XXX
+
+                </p>
+
+                <p>
+
+                    <i class="bi bi-envelope-fill text-success"></i>
+
+                    contact@fermeaser.com
+
+                </p>
+
+                <p>
+
+                    <i class="bi bi-geo-alt-fill text-success"></i>
+
+                    Fungurume - Lualaba - RDC
+
+                </p>
+
+                <a href="contact.html"
+                    class="btn btn-success">
+
+                    Nous écrire
+
+                </a>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <img src="images/contact.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Contact">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================
+        FOOTER
+===========================-->
+
+<footer class="bg-dark text-white pt-5 pb-4">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-4">
+
+                <h3 class="fw-bold">
+
+                    🌾 FERME ASER
+
+                </h3>
+
+                <p>
+
+                    Agriculture moderne,
+                    élevage de cailles
+                    et production agricole
+                    en République Démocratique du Congo.
+
+                </p>
+
+            </div>
+
+            <div class="col-lg-2">
+
+                <h5>
+
+                    Navigation
+
+                </h5>
+
+                <ul class="list-unstyled">
+
+                    <li><a href="index.html" class="text-white text-decoration-none">Accueil</a></li>
+
+                    <li><a href="products.html" class="text-white text-decoration-none">Produits</a></li>
+
+                    <li><a href="gallery.html" class="text-white text-decoration-none">Galerie</a></li>
+
+                    <li><a href="about.html" class="text-white text-decoration-none">À propos</a></li>
+
+                    <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-lg-3">
+
+                <h5>
+
+                    Horaires
+
+                </h5>
+
+                <p>
+
+                    Lundi - Samedi
+
+                </p>
+
+                <p>
+
+                    08h00 - 17h00
+
+                </p>
+
+            </div>
+
+            <div class="col-lg-3">
+
+                <h5>
+
+                    Réseaux sociaux
+
+                </h5>
+
+                <a href="#" class="text-white me-3">
+
+                    <i class="bi bi-facebook fs-4"></i>
+
+                </a>
+
+                <a href="#" class="text-white me-3">
+
+                    <i class="bi bi-whatsapp fs-4"></i>
+
+                </a>
+
+                <a href="#" class="text-white">
+
+                    <i class="bi bi-youtube fs-4"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+
+            © 2026 Ferme Aser.
+            Tous droits réservés.
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!--==========================
+    BOUTON WHATSAPP
+===========================-->
+
+<a href="https://wa.me/243000000000"
+    class="btn btn-success rounded-circle position-fixed"
+    style="bottom:25px; right:25px; width:60px; height:60px; display:flex; align-items:center; justify-content:center; z-index:999;">
+
+    <i class="bi bi-whatsapp fs-3"></i>
+
+</a>
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS -->
+
+<script src="js/app.js"></script>
 
 </body>
+
 </html>
-.hero{
-
-    padding:120px 0;
-
-    background:#f8f9fa;
-
-}
-
-.hero h1{
-
-    color:#2E7D32;
-
-}
-
-.hero p{
-
-    font-size:22px;
-
-    line-height:1.7;
-
-}
