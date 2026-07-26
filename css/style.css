@@ -858,3 +858,26 @@ overflow-x:hidden;
     font-weight:700;
 
 }
+.logo-navbar{
+
+    width:170px;
+
+    height:auto;
+
+    object-fit:contain;
+
+    transition:.3s;
+
+}
+
+.logo-navbar:hover{
+
+    transform:scale(1.05);
+
+}
+
+.navbar{
+
+    padding:10px 0;
+
+}
